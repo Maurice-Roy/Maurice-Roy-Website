@@ -8,7 +8,9 @@ class LandingPage extends React.Component {
     return(
       <div id="LandingPage">
         <div id="LandingPageHeader">
-          <img id="MyName" src={MauriceRoyText} alt=""/>
+          <div id="MyName">
+            <img src={MauriceRoyText} alt=""/>
+          </div>
           <SocialMediaLinks/>
         </div>
         <div id="AboutLink">
