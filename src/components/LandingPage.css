@@ -1,0 +1,48 @@
+#LandingPage {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 80%;
+  width: 100%;
+  height: 100%;
+  cursor: url('../images/mario_hand.png') 7 7, grab;
+}
+
+#LandingPageHeader {
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 100%;
+  font-weight: 700;
+  font-size: 800%;
+}
+
+#MyName {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  object-fit: fill;
+  max-width: 100%;
+  margin-top: -2.1%;
+  margin-left: 0.6%;
+  transform: scaleY(1.07);
+}
+
+#AboutLink {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+#AppsLink {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+#DesignLink {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+
+#AudioLink {
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+}
