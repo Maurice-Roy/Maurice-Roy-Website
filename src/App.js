@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import LandingPage from './components/LandingPage'
+import LandingPage from './components/LandingPage/LandingPage'
 import AboutPage from './components/AboutPage'
-import AppsPage from './components/AppsPage'
+import CodingPage from './components/CodingPage'
 import AudioPage from './components/AudioPage'
 import DesignPage from './components/DesignPage'
 
@@ -17,8 +17,8 @@ class App extends Component {
         return <LandingPage changeDisplay={this.changeDisplay}/>
       case "AboutPage":
         return <AboutPage/>
-      case "AppsPage":
-        return <AppsPage/>
+      case "CodingPage":
+        return <CodingPage/>
       case "AudioPage":
         return <AudioPage/>
       case "DesignPage":
