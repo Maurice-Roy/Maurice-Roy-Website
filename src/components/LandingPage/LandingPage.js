@@ -1,9 +1,13 @@
 import React from 'react'
 import './LandingPage.css';
-import AboutLink from './Blocks/AboutLink'
-import CodingLink from './Blocks/CodingLink'
-import DesignLink from './Blocks/DesignLink'
-import AudioLink from './Blocks/AudioLink'
+import AboutLinkGraphic from './Blocks/AboutLinkGraphic'
+import AboutLinkText from './Blocks/AboutLinkText'
+import CodingLinkGraphic from './Blocks/CodingLinkGraphic'
+import CodingLinkText from './Blocks/CodingLinkText'
+import DesignLinkGraphic from './Blocks/DesignLinkGraphic'
+import DesignLinkText from './Blocks/DesignLinkText'
+import AudioLinkGraphic from './Blocks/AudioLinkGraphic'
+import AudioLinkText from './Blocks/AudioLinkText'
 import LandingPageHeader from './Blocks/LandingPageHeader'
 
 class LandingPage extends React.Component {
@@ -11,10 +15,14 @@ class LandingPage extends React.Component {
     return(
       <div id="LandingPage">
         <LandingPageHeader/>
-        <AboutLink/>
-        <CodingLink/>
-        <DesignLink/>
-        <AudioLink/>
+        <AboutLinkGraphic/>
+        <AboutLinkText/>
+        <CodingLinkGraphic/>
+        <CodingLinkText/>
+        <DesignLinkGraphic/>
+        <DesignLinkText/>
+        <AudioLinkGraphic/>
+        <AudioLinkText/>
       </div>
     )
   }

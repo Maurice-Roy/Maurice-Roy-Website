@@ -1,0 +1,48 @@
+#AudioLinkGraphic {
+  display: flex;
+  flex-direction: column;
+}
+
+#SoundSystemContainer {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  isolation: isolate;
+  margin: auto;
+}
+
+#SoundSystemContainer:after {
+  content: "";
+  background: rgb(192, 246, 221);
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+#SoundSystem {
+  margin: auto;
+  width: 90%;
+  filter: grayscale(100%);
+  position: relative;
+  display: inline-block;
+}
+
+#AudioLinkGraphic:hover img {
+  filter: grayscale(100%) invert(100%);
+}
+
+#AudioLinkGraphic:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#AudioLinkGraphic:hover div:after {
+  mix-blend-mode: multiply;
+}
+
+#AudioLinkGraphic:hover div {
+  background-color: rgb(0, 0, 0);
+}

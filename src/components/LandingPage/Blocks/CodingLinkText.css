@@ -1,0 +1,26 @@
+#CodingLinkText {
+  display: flex;
+  flex-direction: column;
+}
+
+#CodingLinkText svg {
+  margin: auto;
+  margin-top: 0;
+  width: 85%;
+}
+
+#CodingLinkText:hover img {
+  filter: grayscale(100%) invert(100%);
+}
+
+#CodingLinkText:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#CodingLinkText:hover div:after {
+  mix-blend-mode: multiply;
+}
+
+#CodingLinkText:hover div {
+  background-color: rgb(0, 0, 0);
+}

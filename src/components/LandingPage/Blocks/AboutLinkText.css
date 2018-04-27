@@ -1,0 +1,28 @@
+#AboutLinkText {
+  display: flex;
+  flex-direction: column;
+}
+
+#AboutLinkText svg {
+  margin: auto;
+  margin-top: 0;
+  width: 85%;
+  transform: scaleY(.88);
+  margin-top: -1.4%;
+}
+
+#AboutLinkText:hover img {
+  filter: grayscale(100%) invert(100%);
+}
+
+#AboutLinkText:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#AboutLinkText:hover div:after {
+  mix-blend-mode: multiply;
+}
+
+#AboutLinkText:hover div {
+  background-color: rgb(0, 0, 0);
+}
