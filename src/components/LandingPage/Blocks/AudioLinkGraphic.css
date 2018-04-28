@@ -1,5 +1,5 @@
 #AudioLinkGraphic {
-  display: block;
+  display: grid;
 }
 
 #SoundSystemContainer {

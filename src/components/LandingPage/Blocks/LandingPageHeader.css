@@ -6,6 +6,7 @@
   grid-auto-rows: min-content;
   font-weight: 700;
   font-size: 800%;
+  position: relative;
 }
 
 #MyName {
@@ -28,19 +29,21 @@
   margin-right: 5%;
   margin-bottom: -1.7%;
   transform: scaleY(1.2);
+  display: block;
 }
 
 @media only screen and (max-width: 650px) {
   #LandingPageHeader {
-    display: flex;
+    display: block;
     flex-direction: column;
   }
 
   #MyName {
-    display: grid;
+    display: block;
   }
 
   #MyName svg {
+    display: block;
     margin-right: 1%;
   }
 }
