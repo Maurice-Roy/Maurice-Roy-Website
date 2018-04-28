@@ -4,9 +4,11 @@
   display: grid;
   grid-template-columns: 65% 35%;
   grid-auto-rows: min-content;
+  grid-auto-rows: -webkit-min-content;
   font-weight: 700;
   font-size: 800%;
   position: relative;
+  height: -webkit-min-content;
 }
 
 #MyName {
@@ -15,7 +17,7 @@
   object-fit: fill;
   max-width: 100%;
   top: 0;
-  display: grid;
+  display: block;
   /* margin-left: 0.6%; */
   /* transform: scaleY(1.07); */
   overflow: none;
