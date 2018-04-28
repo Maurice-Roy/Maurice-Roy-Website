@@ -1,6 +1,5 @@
 #DesignLinkGraphic {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 #CameraContainer {

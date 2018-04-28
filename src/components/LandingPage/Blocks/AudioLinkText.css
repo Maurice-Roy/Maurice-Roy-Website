@@ -1,6 +1,5 @@
 #AudioLinkText {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 #AudioLinkText svg {
