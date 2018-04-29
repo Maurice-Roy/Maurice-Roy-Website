@@ -32,6 +32,9 @@
   margin-bottom: -1.7%;
   transform: scaleY(1.2);
   display: block;
+
+  -webkit-animation: puff-in-hor 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	animation: puff-in-hor 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 #MyName:hover svg {
@@ -39,11 +42,10 @@
   /* -webkit-animation: flipInX 0.8s both;
   animation: flipInX 0.8s both; */
 
-  -webkit-animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-	animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 550px) {
   #LandingPageHeader {
     display: block;
     flex-direction: column;
@@ -89,8 +91,8 @@
 
 @-webkit-keyframes puff-in-hor {
   0% {
-    -webkit-transform: scaleX(1.2) scaleY(1.3);
-            transform: scaleX(1.2) scaleY(1.3);
+    -webkit-transform: scaleX(1.1) scaleY(1.3);
+            transform: scaleX(1.1) scaleY(1.3);
     -webkit-filter: blur(3px);
             filter: blur(3px);
     opacity: 0;
@@ -105,8 +107,8 @@
 }
 @keyframes puff-in-hor {
   0% {
-    -webkit-transform: scaleX(1.2) scaleY(1.3);
-            transform: scaleX(1.2) scaleY(1.3);
+    -webkit-transform: scaleX(1.1) scaleY(1.3);
+            transform: scaleX(1.1) scaleY(1.3);
     -webkit-filter: blur(3px);
             filter: blur(3px);
     opacity: 0;
