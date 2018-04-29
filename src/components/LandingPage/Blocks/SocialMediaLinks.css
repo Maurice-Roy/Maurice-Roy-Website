@@ -35,6 +35,11 @@
   grid-column: 1 / 2;
 }
 
+#LinkedIn-icon-container:hover svg {
+  -webkit-animation: jello-diagonal-1 0.8s both;
+  animation: jello-diagonal-1 0.8s both;
+}
+
 #Email-icon-container {
   grid-column: 2 / 3;
 }
@@ -46,6 +51,11 @@
 
 #GitHub-icon-container {
   grid-column: 3 / 4;
+}
+
+#GitHub-icon-container:hover svg {
+  -webkit-animation: jello-diagonal-2 0.8s both;
+	animation: jello-diagonal-2 0.8s both;
 }
 
 @media only screen and (max-width: 650px) {
@@ -80,7 +90,6 @@
     opacity: 0;
   }
 }
-
 @keyframes slide-out-tr {
   0% {
     -webkit-transform: translateY(0) translateX(0);
@@ -96,5 +105,127 @@
     -webkit-transform: translateY(-180%) translateX(180%);
             transform: translateY(-180%) translateX(180%);
     opacity: 0;
+  }
+}
+
+@-webkit-keyframes jello-diagonal-1 {
+  0% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+  30% {
+    -webkit-transform: skew(13deg 13deg);
+            transform: skew(13deg 13deg);
+  }
+  40% {
+    -webkit-transform: skew(-8deg, -8deg);
+            transform: skew(-8deg, -8deg);
+  }
+  50% {
+    -webkit-transform: skew(8deg, 8deg);
+            transform: skew(8deg, 8deg);
+  }
+  65% {
+    -webkit-transform: skew(-3deg, -3deg);
+            transform: skew(-3deg, -3deg);
+  }
+  75% {
+    -webkit-transform: skew(3deg, 3deg);
+            transform: skew(3deg, 3deg);
+  }
+  100% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+}
+@keyframes jello-diagonal-1 {
+  0% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+  30% {
+    -webkit-transform: skew(13deg 13deg);
+            transform: skew(13deg 13deg);
+  }
+  40% {
+    -webkit-transform: skew(-8deg, -8deg);
+            transform: skew(-8deg, -8deg);
+  }
+  50% {
+    -webkit-transform: skew(8deg, 8deg);
+            transform: skew(8deg, 8deg);
+  }
+  65% {
+    -webkit-transform: skew(-3deg, -3deg);
+            transform: skew(-3deg, -3deg);
+  }
+  75% {
+    -webkit-transform: skew(3deg, 3deg);
+            transform: skew(3deg, 3deg);
+  }
+  100% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+}
+
+@-webkit-keyframes jello-diagonal-2 {
+  0% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+  30% {
+    -webkit-transform: skew(-13deg -13deg);
+            transform: skew(-13deg -13deg);
+  }
+  40% {
+    -webkit-transform: skew(8deg, 8deg);
+            transform: skew(8deg, 8deg);
+  }
+  50% {
+    -webkit-transform: skew(-8deg, -8deg);
+            transform: skew(-8deg, -8deg);
+  }
+  65% {
+    -webkit-transform: skew(3deg, 3deg);
+            transform: skew(3deg, 3deg);
+  }
+  75% {
+    -webkit-transform: skew(-3deg, -3deg);
+            transform: skew(-3deg, -3deg);
+  }
+  100% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+}
+@keyframes jello-diagonal-2 {
+  0% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
+  }
+  30% {
+    -webkit-transform: skew(-13deg -13deg);
+            transform: skew(-13deg -13deg);
+  }
+  40% {
+    -webkit-transform: skew(8deg, 8deg);
+            transform: skew(8deg, 8deg);
+  }
+  50% {
+    -webkit-transform: skew(-8deg, -8deg);
+            transform: skew(-8deg, -8deg);
+  }
+  65% {
+    -webkit-transform: skew(3deg, 3deg);
+            transform: skew(3deg, 3deg);
+  }
+  75% {
+    -webkit-transform: skew(-3deg, -3deg);
+            transform: skew(-3deg, -3deg);
+  }
+  100% {
+    -webkit-transform: skew(0deg 0deg);
+            transform: skew(0deg 0deg);
   }
 }
