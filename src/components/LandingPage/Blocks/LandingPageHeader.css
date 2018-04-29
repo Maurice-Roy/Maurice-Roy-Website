@@ -42,10 +42,14 @@
 
   #MyName {
     display: block;
+    /* margin-bottom: 2%; */
+    padding-bottom: 2%;
+    margin: auto;
   }
 
   #MyName svg {
     display: block;
-    margin-right: 1%;
+    margin-right: 1.5%;
+    margin-bottom: -3.5%;
   }
 }

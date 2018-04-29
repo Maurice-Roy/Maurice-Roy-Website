@@ -1,25 +1,30 @@
 #CodingLinkText {
-  display: block;
+  display: grid;
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
 #CodingLinkText svg {
   margin: auto;
-  margin-top: 0;
   width: 85%;
-}
-
-#CodingLinkText:hover img {
-  filter: grayscale(100%) invert(100%);
+  position: relative;
+  display: block;
 }
 
 #CodingLinkText:hover {
   background-color: rgb(0, 0, 0);
 }
 
-#CodingLinkText:hover div:after {
-  mix-blend-mode: multiply;
-}
+@media only screen and (max-width: 650px) {
+  #CodingLinkText {
+    display: block;
+    margin: auto;
+  }
 
-#CodingLinkText:hover div {
-  background-color: rgb(0, 0, 0);
+  #CodingLinkText svg {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+  }
 }

@@ -1,27 +1,32 @@
 #DesignLinkText {
-  display: block;
+  display: grid;
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
 #DesignLinkText svg {
   margin: auto;
-  margin-top: 0;
   width: 85%;
+  position: relative;
+  display: block;
   transform: scaleY(.95);
-  margin-top: -0.5%;
-}
-
-#DesignLinkText:hover img {
-  filter: grayscale(100%) invert(100%);
+  /* margin-top: -0.5%; */
 }
 
 #DesignLinkText:hover {
   background-color: rgb(0, 0, 0);
 }
 
-#DesignLinkText:hover div:after {
-  mix-blend-mode: multiply;
-}
+@media only screen and (max-width: 650px) {
+  #DesignLinkText {
+    display: block;
+    margin: auto;
+  }
 
-#DesignLinkText:hover div {
-  background-color: rgb(0, 0, 0);
+  #DesignLinkText svg {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+  }
 }
