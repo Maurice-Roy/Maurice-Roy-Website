@@ -9,6 +9,9 @@
   font-size: 800%;
   position: relative;
   height: -webkit-min-content;
+  -webkit-animation: puff-in-hor 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	animation: puff-in-hor 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  z-index: 1;
 }
 
 #MyName {
@@ -18,7 +21,7 @@
   max-width: 100%;
   top: 0;
   display: block;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* margin-left: 0.6%; */
   /* transform: scaleY(1.07); */
 }
@@ -33,8 +36,7 @@
   transform: scaleY(1.2);
   display: block;
 
-  -webkit-animation: puff-in-hor 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-	animation: puff-in-hor 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+
 }
 
 #MyName:hover svg {
@@ -98,8 +100,8 @@
     opacity: 0;
   }
   100% {
-    -webkit-transform: scaleX(1) scaleY(1.2);
-            transform: scaleX(1) scaleY(1.2);
+    -webkit-transform: scaleX(1) scaleY(1);
+            transform: scaleX(1) scaleY(1);
     -webkit-filter: blur(0px);
             filter: blur(0px);
     opacity: 1;
@@ -114,8 +116,8 @@
     opacity: 0;
   }
   100% {
-    -webkit-transform: scaleX(1) scaleY(1.2);
-            transform: scaleX(1) scaleY(1.2);
+    -webkit-transform: scaleX(1) scaleY(1);
+            transform: scaleX(1) scaleY(1);
     -webkit-filter: blur(0px);
             filter: blur(0px);
     opacity: 1;
