@@ -1,5 +1,34 @@
 #CodingPage {
   width: 100%;
   height: 100%;
+  display: flex;
+  position: absolute;
+}
+
+#Projects {
+  font-size: 120%;
+  margin: auto;
   display: block;
+  position: relative;
+  max-width: 80%;
+  text-align: center;
+  -webkit-animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	animation: slide-in-blurred-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+.Line {
+  letter-spacing: -0.2em;
+}
+
+.ProjectTitle {
+  font-weight: bolder;
+}
+
+.TagLine {
+  /* font-style: italic; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
