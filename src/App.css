@@ -12,7 +12,7 @@
   background: rgb(192, 246, 221);
   color: rgb(0, 0, 0);
   cursor: url('./images/mario_hand.png') 5 7, grab;
-
+  -ms-overflow-style: none;
 }
 
 .App:active {
@@ -21,4 +21,8 @@
 
 a:hover {
   cursor: url('./images/mario_hand_active.png') 5 55, grabbing;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

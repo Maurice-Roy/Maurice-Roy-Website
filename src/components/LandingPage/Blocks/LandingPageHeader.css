@@ -11,7 +11,7 @@
   height: -webkit-min-content;
   -webkit-animation: puff-in-hor 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	animation: puff-in-hor 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 #MyName {
@@ -35,16 +35,11 @@
   margin-bottom: -1.7%;
   transform: scaleY(1.2);
   display: block;
-
-
 }
 
 #MyName:hover svg {
-
   /* -webkit-animation: flipInX 0.8s both;
   animation: flipInX 0.8s both; */
-
-
 }
 
 @media only screen and (max-width: 550px) {
