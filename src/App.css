@@ -18,3 +18,7 @@
 .App:active {
   cursor: url('./images/mario_hand_active.png') 5 55, grabbing;
 }
+
+a:hover {
+  cursor: url('./images/mario_hand_active.png') 5 55, grabbing;
+}
