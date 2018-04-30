@@ -16,21 +16,22 @@ class App extends Component {
       case "LandingPage":
         return <LandingPage changeDisplay={this.changeDisplay}/>
       case "AboutPage":
-        return <AboutPage/>
+        return <AboutPage changeDisplay={this.changeDisplay}/>
       case "CodingPage":
-        return <CodingPage/>
+        return <CodingPage changeDisplay={this.changeDisplay}/>
       case "AudioPage":
-        return <AudioPage/>
+        return <AudioPage changeDisplay={this.changeDisplay}/>
       case "DesignPage":
-        return <DesignPage/>
+        return <DesignPage changeDisplay={this.changeDisplay}/>
       default:
         console.log("Hit default in displaySwitch!")
     }
   }
 
-  changeDisplay = (event) => {
+  changeDisplay = (newDisplay) => {
+    console.log(newDisplay);
     this.setState({
-      currentDisplay: event.target.key
+      currentDisplay: newDisplay
     })
   }
 

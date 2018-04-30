@@ -5,7 +5,7 @@ import MyFace from '../../../images/Mo-Headshot-OlegCutout BW.png'
 class AboutLink extends React.Component {
   render () {
     return (
-      <div id="AboutLinkGraphic" className="LandingPageBlock" onClick={(e) => this.props.changeDisplay(e)}>
+      <div id="AboutLinkGraphic" className="LandingPageBlock" onClick={() => this.props.changeDisplay("AboutPage")}>
         <div id="FaceContainer">
           <img id="MyFace" src={MyFace} alt=""/>
         </div>

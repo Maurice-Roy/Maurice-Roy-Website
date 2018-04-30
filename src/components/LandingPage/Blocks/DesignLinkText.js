@@ -5,7 +5,7 @@ import Camera from '../../../images/polaroid leak.png'
 class DesignLink extends React.Component {
   render () {
     return (
-      <div id="DesignLinkText" className="LandingPageBlock" onClick={(e) => this.props.changeDisplay(e)}>
+      <div id="DesignLinkText" className="LandingPageBlock" onClick={() => this.props.changeDisplay("DesignPage")}>
         <svg viewBox="112.62745 229.78431 115.19376 29.218751">
           <g transform="translate(-67.924802,-20.975602)">
             <g transform="matrix(1.2774207,0,0,1.2485561,-33.249642,22.22054)">

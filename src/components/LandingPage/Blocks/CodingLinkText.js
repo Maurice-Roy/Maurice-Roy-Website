@@ -5,7 +5,7 @@ import Computer from '../../../images/Apple-IIGS-Woz-edition2.png'
 class CodingLink extends React.Component {
   render () {
     return (
-      <div id="CodingLinkText" className="LandingPageBlock" onClick={(e) => this.props.changeDisplay(e)}>
+      <div id="CodingLinkText" className="LandingPageBlock" onClick={() => this.props.changeDisplay("CodingPage")}>
         <svg viewBox="112.62745 229.78431 121.89297 29.218743">
           <g transform="translate(-63.11292,-20.584995)">
             <g transform="matrix(1.2774207,0,0,1.2485561,-33.249642,22.22054)">

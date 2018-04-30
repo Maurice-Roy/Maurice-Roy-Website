@@ -5,7 +5,7 @@ import MyFace from '../../../images/Mo-Headshot-OlegCutout BW.png'
 class AboutLink extends React.Component {
   render () {
     return (
-      <div id="AboutLinkText" className="LandingPageBlock" onClick={(e) => this.props.changeDisplay(e)}>
+      <div id="AboutLinkText" className="LandingPageBlock" onClick={() => this.props.changeDisplay("AboutPage")}>
         <svg viewBox="112.62745 229.78431 108.79564 29.218754">
           <g transform="translate(-68.445402,-20.557488)">
             <g transform="matrix(1.2774207,0,0,1.2485561,-33.249642,22.22054)">

@@ -5,7 +5,7 @@ import './AudioLinkText.css';
 class AudioLink extends React.Component {
   render () {
     return (
-      <div id="AudioLinkText" className="LandingPageBlock" onClick={(e) => this.props.changeDisplay(e)}>
+      <div id="AudioLinkText" className="LandingPageBlock" onClick={() => this.props.changeDisplay("AudioPage")}>
         <svg viewBox="112.62745 229.78431 97.428433 29.218751">
           <g transform="translate(-66.624958,-12.288093)">
             <g transform="matrix(1.2774207,0,0,1.2485561,-33.249642,22.22054)">

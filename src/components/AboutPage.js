@@ -2,9 +2,9 @@ import React from 'react'
 import './AboutPage.css';
 
 class AboutPage extends React.Component {
-  render () {
+  render (props) {
     return (
-      <div id="AboutPage">
+      <div id="AboutPage" onClick={() => this.props.changeDisplay("LandingPage")}>
 
       </div>
     )

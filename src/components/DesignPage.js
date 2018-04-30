@@ -4,7 +4,7 @@ import './DesignPage.css';
 class DesignPage extends React.Component {
   render () {
     return (
-      <div id="DesignPage">
+      <div id="DesignPage" onClick={() => this.props.changeDisplay("LandingPage")}>
 
       </div>
     )

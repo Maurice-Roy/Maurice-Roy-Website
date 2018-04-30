@@ -11,18 +11,18 @@ import AudioLinkText from './Blocks/AudioLinkText'
 import LandingPageHeader from './Blocks/LandingPageHeader'
 
 class LandingPage extends React.Component {
-  render () {
+  render (props) {
     return(
       <div id="LandingPage">
-        <LandingPageHeader/>
-        <AboutLinkGraphic/>
-        <AboutLinkText/>
-        <CodingLinkGraphic/>
-        <CodingLinkText/>
-        <DesignLinkGraphic/>
-        <DesignLinkText/>
-        <AudioLinkGraphic/>
-        <AudioLinkText/>
+        <LandingPageHeader changeDisplay={this.props.changeDisplay}/>
+        <AboutLinkGraphic changeDisplay={this.props.changeDisplay}/>
+        <AboutLinkText changeDisplay={this.props.changeDisplay}/>
+        <CodingLinkGraphic changeDisplay={this.props.changeDisplay}/>
+        <CodingLinkText changeDisplay={this.props.changeDisplay}/>
+        <DesignLinkGraphic changeDisplay={this.props.changeDisplay}/>
+        <DesignLinkText changeDisplay={this.props.changeDisplay}/>
+        <AudioLinkGraphic changeDisplay={this.props.changeDisplay}/>
+        <AudioLinkText changeDisplay={this.props.changeDisplay}/>
       </div>
     )
   }
