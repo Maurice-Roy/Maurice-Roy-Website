@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutLinkGraphic.css';
-import MyFace from '../../../images/Mo-Headshot-OlegCutout BW.png'
+import MyFace from '../../../images/Mo-Headshot-OlegCutoutBW.png'
 
 class AboutLink extends React.Component {
   render () {

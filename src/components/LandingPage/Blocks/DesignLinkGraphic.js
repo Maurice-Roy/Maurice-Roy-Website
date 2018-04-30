@@ -1,6 +1,6 @@
 import React from 'react'
 import './DesignLinkGraphic.css';
-import Camera from '../../../images/polaroid leak.png'
+import Camera from '../../../images/polaroidLeak.png'
 
 class DesignLink extends React.Component {
   render () {
