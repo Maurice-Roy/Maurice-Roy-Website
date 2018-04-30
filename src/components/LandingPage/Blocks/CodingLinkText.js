@@ -1,6 +1,5 @@
 import React from 'react'
 import './CodingLinkText.css';
-import Computer from '../../../images/Apple-IIGS-Woz-edition2.png'
 
 class CodingLink extends React.Component {
   render () {

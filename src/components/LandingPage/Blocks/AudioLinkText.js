@@ -1,5 +1,4 @@
 import React from 'react'
-import SoundSystem from '../../../images/soundsystem.png'
 import './AudioLinkText.css';
 
 class AudioLink extends React.Component {
